@@ -42,8 +42,6 @@ def teens(i)
 end
 
 letters = (1..999).to_a.map { |num| find_string(num) }.join
-(1..999).to_a.map { |num| puts find_string(num) }
-puts letters
 ans = letters.length + "onethousand".length
 
 puts ans
